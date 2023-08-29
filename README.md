@@ -1,6 +1,6 @@
 Task:
 Create two endpoints register and login 
-register fields - firstname, lastname, username, password
+register fields - firstname, lastname, username, password.
 login - check whether the login details are valid
 
 created two endpoints login and register 
