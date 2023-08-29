@@ -19,9 +19,15 @@ Body:
 username
 password
 
+Run migration
+php artisan migrate
+
+Database seeding to get the valid username and password for testing
+php artisan db:seed
+
 #Valid username and password
 valid username - tulasi
-valid password - tulasi
+valid password - tulasi@123
 
 #api in json format
 https://api.postman.com/collections/13725095-3d6d4f78-2f8f-4041-8ca8-89bc82d60ea2?access_key=PMAT-01H91BRT9W6HJGR3A3D0G43XDZ
