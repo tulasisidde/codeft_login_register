@@ -17,15 +17,15 @@ password
 http://127.0.0.1:8082/codeft_login_register/public/api/login
 Body:
 username
-password
+password.
 
-Run migration
+Run migration:
 php artisan migrate
 
-Database seeding to get the valid username and password for testing
+Database seeding to get the valid username and password for testing:
 php artisan db:seed
 
-#Valid username and password
+#Valid username and password:
 valid username - tulasi
 valid password - tulasi@123
 
